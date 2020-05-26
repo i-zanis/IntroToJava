@@ -17,7 +17,9 @@
       <change afterPath="$PROJECT_DIR$/src/E3_15.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_17.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E3_19.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E3_20.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_9.java" afterDir="false" />
@@ -29,12 +31,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1cPyhRUBs4Ki6Yjri8qlpsWNSc8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntroToJava" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,9 +69,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E3_4">
+  <component name="RunManager" selected="Application.E3_19">
     <configuration name="E3_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E3_12" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E3_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E3_19" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E3_19" />
         <item itemvalue="Application.E3_4" />
         <item itemvalue="Application.E3_2" />
         <item itemvalue="Application.E3_12" />
@@ -157,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590444641543</updated>
-      <workItem from="1590444646732" duration="1690000" />
+      <workItem from="1590444646732" duration="4103000" />
     </task>
     <servers />
   </component>
