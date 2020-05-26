@@ -19,7 +19,9 @@
       <change afterPath="$PROJECT_DIR$/src/E3_18.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_19.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E3_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E3_22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E3_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E3_24.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_9.java" afterDir="false" />
@@ -69,14 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E3_19">
-    <configuration name="E3_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_12" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E3_24">
     <configuration name="E3_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E3_19" />
       <module name="IntroToJava" />
@@ -84,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_2" />
+    <configuration name="E3_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E3_22" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E3_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E3_23" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E3_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E3_24" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E3_24" />
+        <item itemvalue="Application.E3_23" />
+        <item itemvalue="Application.E3_22" />
         <item itemvalue="Application.E3_19" />
         <item itemvalue="Application.E3_4" />
-        <item itemvalue="Application.E3_2" />
-        <item itemvalue="Application.E3_12" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590444641543</updated>
-      <workItem from="1590444646732" duration="5092000" />
+      <workItem from="1590444646732" duration="9079000" />
     </task>
     <servers />
   </component>
