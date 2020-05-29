@@ -12,7 +12,6 @@ public class E3_10 {
         if (guess == mul) {
             System.out.println("You have guessed it right!");
         } else System.out.println("You suck dix.");
-
     }
 
 }
