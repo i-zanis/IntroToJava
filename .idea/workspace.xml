@@ -26,7 +26,13 @@
       <change afterPath="$PROJECT_DIR$/src/E3_4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E3_9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_7.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,101 +78,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E3_24">
-    <configuration name="E3_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_19" />
+  <component name="RunManager" selected="Application.E4_7">
+    <configuration name="E4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_2" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_22" />
+    <configuration name="E4_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_4" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_23" />
+    <configuration name="E4_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_5" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_24" />
+    <configuration name="E4_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_6" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E3_4" />
+    <configuration name="E4_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_7" />
       <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="IntroToJava" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="IntroToJava" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E3_24" />
-        <item itemvalue="Application.E3_23" />
-        <item itemvalue="Application.E3_22" />
-        <item itemvalue="Application.E3_19" />
-        <item itemvalue="Application.E3_4" />
+        <item itemvalue="Application.E4_7" />
+        <item itemvalue="Application.E4_6" />
+        <item itemvalue="Application.E4_5" />
+        <item itemvalue="Application.E4_4" />
+        <item itemvalue="Application.E4_2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
     <configuration>C:\Users\JEITI\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -194,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590444641543</updated>
       <workItem from="1590444646732" duration="9703000" />
+      <workItem from="1590973190543" duration="7730000" />
     </task>
     <servers />
   </component>
