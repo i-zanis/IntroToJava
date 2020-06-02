@@ -155,6 +155,7 @@
       <updated>1590444641543</updated>
       <workItem from="1590444646732" duration="9703000" />
       <workItem from="1590973190543" duration="8061000" />
+      <workItem from="1591036631390" duration="2132000" />
     </task>
     <servers />
   </component>
@@ -168,5 +169,8 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IntroJava$E4_7.ic" NAME="E4_7 Coverage Results" MODIFIED="1591055958017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
