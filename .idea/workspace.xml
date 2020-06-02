@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="">
+    <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="first commit">
       <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -28,6 +28,7 @@
       <change afterPath="$PROJECT_DIR$/src/E3_9.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_11.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_4.java" afterDir="false" />
@@ -42,6 +43,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="183" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,6 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
@@ -157,7 +162,8 @@
       <updated>1590444641543</updated>
       <workItem from="1590444646732" duration="9703000" />
       <workItem from="1590973190543" duration="8061000" />
-      <workItem from="1591036631390" duration="10119000" />
+      <workItem from="1591036631390" duration="13815000" />
+      <workItem from="1591127128857" duration="4591000" />
     </task>
     <servers />
   </component>
@@ -174,6 +180,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntroJava$E4_8.ic" NAME="E4_8 Coverage Results" MODIFIED="1591063644252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IntroJava$E4_10.ic" NAME="E4_10 Coverage Results" MODIFIED="1591131710716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_7.ic" NAME="E4_7 Coverage Results" MODIFIED="1591055958017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
