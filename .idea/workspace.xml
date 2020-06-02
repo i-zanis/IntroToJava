@@ -81,16 +81,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E4_9">
-    <configuration name="E4_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_5" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E4_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_6" />
+  <component name="RunManager" selected="Application.E4_10">
+    <configuration name="E4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_10" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,13 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HexDigit2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HexDigit2Dec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E4_9" />
+        <item itemvalue="Application.E4_10" />
         <item itemvalue="Application.E4_8" />
+        <item itemvalue="Application.HexDigit2Dec" />
+        <item itemvalue="Application.E4_9" />
         <item itemvalue="Application.E4_7" />
-        <item itemvalue="Application.E4_6" />
-        <item itemvalue="Application.E4_5" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +157,7 @@
       <updated>1590444641543</updated>
       <workItem from="1590444646732" duration="9703000" />
       <workItem from="1590973190543" duration="8061000" />
-      <workItem from="1591036631390" duration="7557000" />
+      <workItem from="1591036631390" duration="10119000" />
     </task>
     <servers />
   </component>
