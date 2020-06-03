@@ -29,6 +29,8 @@
       <change afterPath="$PROJECT_DIR$/src/E4_1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_10.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_13.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_4.java" afterDir="false" />
@@ -37,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/src/E4_7.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_8.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,16 +89,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E4_10">
+  <component name="RunManager" selected="Application.test">
     <configuration name="E4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E4_10" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E4_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_7" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,13 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.E4_10" />
         <item itemvalue="Application.E4_8" />
         <item itemvalue="Application.HexDigit2Dec" />
         <item itemvalue="Application.E4_9" />
-        <item itemvalue="Application.E4_7" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,7 @@
       <workItem from="1590444646732" duration="9703000" />
       <workItem from="1590973190543" duration="8061000" />
       <workItem from="1591036631390" duration="13815000" />
-      <workItem from="1591127128857" duration="4591000" />
+      <workItem from="1591127128857" duration="5881000" />
     </task>
     <servers />
   </component>
