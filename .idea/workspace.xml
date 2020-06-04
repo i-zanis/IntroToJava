@@ -166,7 +166,7 @@
       <workItem from="1590444646732" duration="9703000" />
       <workItem from="1590973190543" duration="8061000" />
       <workItem from="1591036631390" duration="13815000" />
-      <workItem from="1591127128857" duration="7506000" />
+      <workItem from="1591127128857" duration="12508000" />
     </task>
     <servers />
   </component>
@@ -182,6 +182,7 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IntroJava$test.ic" NAME="test Coverage Results" MODIFIED="1591228746007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_8.ic" NAME="E4_8 Coverage Results" MODIFIED="1591063644252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_10.ic" NAME="E4_10 Coverage Results" MODIFIED="1591131710716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_7.ic" NAME="E4_7 Coverage Results" MODIFIED="1591055958017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
