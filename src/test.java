@@ -10,4 +10,5 @@ public class test {
         }
         System.out.println("The tuition is " + tuition);
     }
+
 }
