@@ -3,34 +3,32 @@ import java.util.Scanner;
 public class E4_18 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter char: ");
-        String a = input.next();
-        System.out.println("Enter number: ");
-        int b = input.nextInt();
-        String s = "";
+        System.out.print("Enter two characters: ");
+        String s = input.nextLine();
 
-        switch (a.toUpperCase()) {
-            case "I":
-                a = "Information Management ";
-            case "C":
-                a = "Computer Science ";
-            case "A":
-                a = "Accounting ";
-            default:
-                System.out.println("Enter the code again");
-
+        if (s.charAt(0) == 'M')
+            System.out.print("Mathematics ");
+        else if (s.charAt(0) == 'C')
+            System.out.print("Computer Science ");
+        else if (s.charAt(0) == 'I')
+            System.out.print("Information Technology ");
+        else {
+            System.out.println("Invalid input: Wrong major code");
+            System.exit(1);
         }
 
-        switch (b) {
-            case 1:
-                s = "Sophomore";
-            case 2:
-                s = "Freshman";
-            case 3:
-                s = "Junior";
-            case 4:
-                s = "Senior";
+        if (s.charAt(1) == '1')
+            System.out.println("Freshman");
+        else if (s.charAt(1) == '2')
+            System.out.println("Sophomore");
+        else if (s.charAt(1) == '3')
+            System.out.println("Junior");
+        else if (s.charAt(1) == '4')
+            System.out.println("Senior");
+        else {
+            System.out.println("Invalid input: wrong status code");
+            System.exit(2);
         }
-        System.out.println("The student is " + a + s);
     }
 }
+
