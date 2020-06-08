@@ -1,13 +1,12 @@
 public class test {
     public static void main(String[] args) {
-        double tuition = 10000;
-        double year = 0;
-        double interest = 1.07;
-        while (year !=5) {
-            tuition =  (tuition * interest);
-            year++;
-            System.out.printf("The tuition for %10.2f is %10.2f tuition\n", year, tuition);
+        int decimal = 454545;
+        String hex = "";
+        int hexdigit = 0;
+
+        while (decimal!=0) {
+            if (hexdigit <= 0 && hexdigit >= 9);
+            hexdigit = hex
         }
-        System.out.println("The tuition is " + tuition);
     }
 }
