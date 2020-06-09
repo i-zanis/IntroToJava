@@ -1,16 +1,14 @@
 public class E4_25 {
     public static void main(String[] args) {
 
-        int plateLetters1 = ('A' + (int)Math.random() * 26);
-        int plateLetters2 = ('A' + (int)Math.random() * 26);
-        int plateLetters3 = ('A' + (int)Math.random() * 26);
+        char plateLetters1 = (char)('A' + Math.random() * 26);
+        char plateLetters2 = (char)('A' + Math.random() * 26);
+        char plateLetters3 = (char)('A' + Math.random() * 26);
 
 
-        int digit1 = ((int)Math.random() * 10);
-        int digit2 = ((int)Math.random() * 10);
-        int digit3 = ((int)Math.random() * 10);
-        int digit4 = ((int)Math.random() * 10);
+        int digit = (int)(1000 + Math.random() * (9999-1000));
 
-        System.out.println("%c",(char)plateLetters1);
+
+        System.out.println("The code you have requested is: \n" + plateLetters1 + "" +  plateLetters2 +  "" + plateLetters3 + digit);
     }
 }
