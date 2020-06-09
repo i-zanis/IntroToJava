@@ -31,7 +31,15 @@
       <change afterPath="$PROJECT_DIR$/src/E4_11.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_12.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_19.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_25.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_5.java" afterDir="false" />
@@ -76,6 +84,11 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -88,36 +101,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E4_15">
-    <configuration name="E4_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_10" />
+  <component name="RunManager" selected="Application.E4_25">
+    <configuration name="E4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_19" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_15" />
+    <configuration name="E4_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_20" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_8" />
+    <configuration name="E4_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_22" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HexDigit2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HexDigit2Dec" />
+    <configuration name="E4_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_24" />
+      <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="E4_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4_25" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E4_15" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.E4_10" />
-        <item itemvalue="Application.E4_8" />
-        <item itemvalue="Application.HexDigit2Dec" />
+        <item itemvalue="Application.E4_25" />
+        <item itemvalue="Application.E4_24" />
+        <item itemvalue="Application.E4_22" />
+        <item itemvalue="Application.E4_20" />
+        <item itemvalue="Application.E4_19" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +181,8 @@
       <workItem from="1591036631390" duration="13815000" />
       <workItem from="1591127128857" duration="13960000" />
       <workItem from="1591650283248" duration="3295000" />
+      <workItem from="1591655391696" duration="6510000" />
+      <workItem from="1591729851649" duration="5065000" />
     </task>
     <servers />
   </component>
@@ -186,5 +202,6 @@
     <SUITE FILE_PATH="coverage/IntroJava$E4_8.ic" NAME="E4_8 Coverage Results" MODIFIED="1591063644252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_10.ic" NAME="E4_10 Coverage Results" MODIFIED="1591131710716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_7.ic" NAME="E4_7 Coverage Results" MODIFIED="1591055958017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IntroJava$E4_19.ic" NAME="E4_19 Coverage Results" MODIFIED="1591657194167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
