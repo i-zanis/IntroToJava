@@ -40,6 +40,7 @@
       <change afterPath="$PROJECT_DIR$/src/E4_23.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_24.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4_26.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_4.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_5.java" afterDir="false" />
@@ -47,6 +48,12 @@
       <change afterPath="$PROJECT_DIR$/src/E4_7.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_8.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E4_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_08.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,37 +108,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E4_25">
-    <configuration name="E4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_19" />
+  <component name="RunManager" selected="Application.E5_09">
+    <configuration name="E5_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_03" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_20" />
+    <configuration name="E5_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_04" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_22" />
+    <configuration name="E5_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_05" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_24" />
+    <configuration name="E5_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_08" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E4_25" />
+    <configuration name="E5_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_09" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E4_25" />
-        <item itemvalue="Application.E4_24" />
-        <item itemvalue="Application.E4_22" />
-        <item itemvalue="Application.E4_20" />
-        <item itemvalue="Application.E4_19" />
+        <item itemvalue="Application.E5_09" />
+        <item itemvalue="Application.E5_08" />
+        <item itemvalue="Application.E5_05" />
+        <item itemvalue="Application.E5_04" />
+        <item itemvalue="Application.E5_03" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +189,9 @@
       <workItem from="1591127128857" duration="13960000" />
       <workItem from="1591650283248" duration="3295000" />
       <workItem from="1591655391696" duration="6510000" />
-      <workItem from="1591729851649" duration="8023000" />
+      <workItem from="1591729851649" duration="25813000" />
+      <workItem from="1591798351452" duration="29000" />
+      <workItem from="1591820154334" duration="278000" />
     </task>
     <servers />
   </component>
@@ -198,6 +207,8 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IntroJava$E5_01.ic" NAME="E5_01 Coverage Results" MODIFIED="1591748491916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IntroJava$E5_03.ic" NAME="E5_03 Coverage Results" MODIFIED="1591750004190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$test.ic" NAME="test Coverage Results" MODIFIED="1591228746007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_8.ic" NAME="E4_8 Coverage Results" MODIFIED="1591063644252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IntroJava$E4_10.ic" NAME="E4_10 Coverage Results" MODIFIED="1591131710716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
