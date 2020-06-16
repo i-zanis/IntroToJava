@@ -1,10 +1,12 @@
 public class E5_12 {
     public static void main(String[] args) {
-        int i = 0;
-        int x = 0;
-        while ((int)Math.pow(i,3) <= 12000) {
-            i++;
+        int n = 1;
+        while (Math.pow(n, 3) <= 12000) {
+            n++;
         }
-        System.out.println(i);
+        n--;
+        System.out.println("The n is " + n);
+        System.out.println("The n^3 is " + Math.pow(n, 3));
     }
+
 }
