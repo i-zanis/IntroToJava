@@ -61,6 +61,10 @@
       <change afterPath="$PROJECT_DIR$/src/E5_14.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E5_15.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E5_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_23.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/RandomCharacter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestRandomCharacter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
@@ -119,35 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E5_16">
-    <configuration name="E5_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_12" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E5_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_13" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E5_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_14" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E5_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_15" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E5_23">
     <configuration name="E5_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E5_16" />
       <module name="IntroToJava" />
@@ -155,13 +131,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E5_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_17" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E5_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_18" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E5_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_19" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E5_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_23" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E5_23" />
+        <item itemvalue="Application.E5_19" />
+        <item itemvalue="Application.E5_18" />
+        <item itemvalue="Application.E5_17" />
         <item itemvalue="Application.E5_16" />
-        <item itemvalue="Application.E5_15" />
-        <item itemvalue="Application.E5_14" />
-        <item itemvalue="Application.E5_12" />
-        <item itemvalue="Application.E5_13" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +207,7 @@
       <workItem from="1591729851649" duration="25813000" />
       <workItem from="1591798351452" duration="29000" />
       <workItem from="1591820154334" duration="18098000" />
-      <workItem from="1592339857675" duration="2744000" />
+      <workItem from="1592339857675" duration="9706000" />
     </task>
     <servers />
   </component>
@@ -217,6 +221,17 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/E5_17.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntroJava$E5_01.ic" NAME="E5_01 Coverage Results" MODIFIED="1591748491916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
