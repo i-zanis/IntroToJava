@@ -84,6 +84,9 @@
       <change afterPath="$PROJECT_DIR$/src/E5_42.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E5_43.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E5_44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E5_47.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/E5_ISBN.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/RandomCharacter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestRandomCharacter.java" afterDir="false" />
@@ -143,21 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E5_44">
-    <configuration name="E5_39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_39" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E5_40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E5_40" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E5_47">
     <configuration name="E5_41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E5_41" />
       <module name="IntroToJava" />
@@ -179,13 +168,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E5_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_46" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E5_47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E5_47" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E5_47" />
+        <item itemvalue="Application.E5_46" />
         <item itemvalue="Application.E5_44" />
         <item itemvalue="Application.E5_43" />
         <item itemvalue="Application.E5_41" />
-        <item itemvalue="Application.E5_40" />
-        <item itemvalue="Application.E5_39" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +232,7 @@
       <workItem from="1591820154334" duration="18098000" />
       <workItem from="1592339857675" duration="17674000" />
       <workItem from="1592421153723" duration="20876000" />
-      <workItem from="1592518777312" duration="5180000" />
+      <workItem from="1592518777312" duration="10645000" />
     </task>
     <servers />
   </component>
