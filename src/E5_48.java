@@ -1,4 +1,4 @@
-public class E5_47 {
+public class E5_48 {
     public static void main(String[] args) {
         String test = "Beijing Chicago";
         for (int i = 0; i < test.length(); i++) {
