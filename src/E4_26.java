@@ -9,6 +9,7 @@ public class E4_26 {
         int k = '.';
         int dollars = Integer.parseInt(amount.substring(0, amount.indexOf(k)));
         int cents = Integer.parseInt(amount.substring( amount.indexOf(k)+1));
+       
         System.out.println(dollars);
         System.out.println(cents);
 
