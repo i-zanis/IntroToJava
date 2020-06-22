@@ -9,6 +9,7 @@ public class E4_22 {
             System.out.print("Enter string s2: ");
             String s2 = input.nextLine();
 
+
             if (s1.indexOf(s2) != -1) {
                 System.out.println(s2 + " is a substring of " + s1);
             }
