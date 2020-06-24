@@ -1,4 +1,4 @@
-public class E06_010 {
+public class E06_10 {
     public static void main(String[] args) {
         for (int i = 2; i <= 10000; i++)
             System.out.println("The number " + i + " is " + isPrime(i));
