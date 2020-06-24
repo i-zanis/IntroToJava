@@ -158,16 +158,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E06_010">
+  <component name="RunManager" selected="Application.E06_11">
     <configuration name="E06_010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E06_010" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E06_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E06_04" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,13 +187,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E06_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E06_11" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E06_010" />
+        <item itemvalue="Application.E06_11" />
         <item itemvalue="Application.E06_08" />
+        <item itemvalue="Application.E06_010" />
         <item itemvalue="Application.E06_06" />
         <item itemvalue="Application.E06_05" />
-        <item itemvalue="Application.E06_04" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,7 @@
       <workItem from="1592339857675" duration="17674000" />
       <workItem from="1592421153723" duration="20876000" />
       <workItem from="1592518777312" duration="10927000" />
-      <workItem from="1592586097940" duration="21311000" />
+      <workItem from="1592586097940" duration="21906000" />
     </task>
     <servers />
   </component>
