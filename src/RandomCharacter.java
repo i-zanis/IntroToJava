@@ -19,6 +19,7 @@ public class RandomCharacter {
         return getRandomCharacter('0', '9');
     }
 
+
     /** Generate a random character */
     public static char getRandomCharacter() {
         return getRandomCharacter('\u0000', '\uFFFF');
