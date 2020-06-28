@@ -19,8 +19,9 @@ public class E07_05 {
             if (i % 3 ==0) {
                 System.out.println();
             }
+
         System.out.print(list[i] + " ");}
-        System.out.println("The odd numbers are " + oddcount);
-        System.out.println("The even numbers are " + evencount);
+        System.out.println("The Odd numbers are " + oddcount);
+        System.out.println("The Even numbers are " + evencount);
     }
 }
