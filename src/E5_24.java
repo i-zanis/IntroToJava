@@ -1,5 +1,6 @@
 public class E5_24 {
     public static void main(String[] args) {
+
         double i = 1.0;
         double j = 3.0;
         double sum = 0.0;
