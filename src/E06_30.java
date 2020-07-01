@@ -21,6 +21,7 @@ public class E06_30 {
             System.out.println("You win");
     }
 
+
     // Get a dice
     public static int getDice() {
         int i1 = 1 + (int)(Math.random() * 6);
