@@ -21,7 +21,6 @@ public class E06_31 {
             }
 
         } while (number != 0);
-
     }
 
     /** Return true if the card number is valid */
