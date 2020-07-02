@@ -151,14 +151,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E07_05">
-    <configuration name="E07_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E07_01" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.yotest">
     <configuration name="E07_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E07_02" />
       <module name="IntroToJava" />
@@ -187,13 +180,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="yotest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yotest" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.yotest" />
         <item itemvalue="Application.E07_05" />
         <item itemvalue="Application.E07_04" />
         <item itemvalue="Application.E07_03" />
         <item itemvalue="Application.E07_02" />
-        <item itemvalue="Application.E07_01" />
       </list>
     </recent_temporary>
   </component>
@@ -246,22 +246,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="176" y="103" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593208911415" />
-    <state width="723" height="218" key="GridCell.Tab.0.bottom" timestamp="1593228861715">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1593720591610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593228861715" />
-    <state width="723" height="218" key="GridCell.Tab.0.center" timestamp="1593228861715">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593720591610" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1593720591610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593228861715" />
-    <state width="723" height="218" key="GridCell.Tab.0.left" timestamp="1593228861715">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593720591610" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1593720591609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593228861715" />
-    <state width="723" height="218" key="GridCell.Tab.0.right" timestamp="1593228861715">
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593720591609" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1593720591610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593228861715" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593720591610" />
     <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1593223815295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,10 +286,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="203" y="212" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593030461096" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593148845517">
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593722309189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593148845517" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593722309189" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
