@@ -27,6 +27,5 @@ public class E06_25 {
         long totalHours = totalMinutes / 60;
 
         return totalHours + ":" + currentMinute + ":" + currentSecond;
-
     }
 }
