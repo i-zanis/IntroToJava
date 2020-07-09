@@ -149,14 +149,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E07_35">
-    <configuration name="E07_31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E07_31" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E07_36">
     <configuration name="E07_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E07_32" />
       <module name="IntroToJava" />
@@ -185,13 +178,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E07_36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E07_36" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E07_36" />
         <item itemvalue="Application.E07_35" />
         <item itemvalue="Application.E07_35_Prototype" />
         <item itemvalue="Application.E07_33" />
         <item itemvalue="Application.E07_32" />
-        <item itemvalue="Application.E07_31" />
       </list>
     </recent_temporary>
   </component>
