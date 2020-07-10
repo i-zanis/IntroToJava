@@ -1,6 +1,3 @@
-import sun.awt.windows.WPrinterJob;
-
-import java.sql.SQLOutput;
 
 public class E06_01 {
     public static void main(String[] args) {
