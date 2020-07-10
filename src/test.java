@@ -1,22 +1,23 @@
 public class test {
 
     public static void main(String[] args) {
-
-        int num = 29, i = 2;
-        boolean flag = false;
-        while(i <= num/2)
-        {
-            // condition for nonprime number
-            if(num % i == 0)
-            {
-                flag = true;
-                break;
-            }
-            ++i;
+        long sum = 0;
+        long sum1 = 0;
+        double startTime = System.nanoTime();
+        for (int i = 1; i <= 10000; i++) {
+            sum += i;
         }
-        if (!flag)
-            System.out.println(num + " is a prime number.");
-        else
-            System.out.println(num + " is not a prime number.");
+        double endTime = System.nanoTime();
+        System.out.println(("Time " + (endTime - startTime)/100000000));
+        System.out.println(sum);
+
+        startTime = System.nanoTime();
+        sum1 = (10000*(10000+1))/2;
+        endTime = System.nanoTime();
+        System.out.println(("Time " + (double)(endTime - startTime)/100000000));
+        System.out.println(sum1);
+
+
+
     }
 }

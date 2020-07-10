@@ -2,7 +2,7 @@ public class E07_36 {
     public static void main(String[] args) {
         int chessboardSize = 8;
         int[] chessboard = new int[chessboardSize];
-        for (int i = 0; i < 077777777; i++) {
+        for (int i = 0; i < 16777215; i++) {
             int tmp = i;
             for (int j = chessboardSize - 1; j >= 0; j--, tmp /= chessboardSize)
                 chessboard[j] = tmp % chessboardSize;
