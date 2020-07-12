@@ -8,6 +8,7 @@ public class E08_02 {
         System.out.println(averageMajorDiagonal(matrix));
     }
 
+    
     public static double averageMajorDiagonal(double[][] m) {
         double sum = 0;
         int count = 0;
