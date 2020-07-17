@@ -2,7 +2,7 @@ public class E08_13 {
     public static void main(String[] args) {
         final int n = 4;
         double[][] matrix = {
-                { 1, 2, 3},
+                {33, 23, 3},
                 {5, 6, 3},
                 {35, 44, 0.1}};
 
@@ -20,13 +20,11 @@ public class E08_13 {
     }
         public static int[] locateSmallest(double[][] a){
             int[] test = new int[2];
-            double minI = 0;
-            double minJ = 0;
+            double minJ = 100;
             for (int i = 0; i < a.length; i++) {
-                for (int j = 0; j < a[0].length; j++) {
-                    if (minJ < a[i][j]) {
+                for (int j = 0; j < a[i].length; j++) {
+                    if (minJ > a[i][j]) {
                         System.out.println(minJ + " " + a[i][j]);
-                        minI = i;
                         minJ = a[i][j];
                         test[0] = i;
                         test[1] = j;
