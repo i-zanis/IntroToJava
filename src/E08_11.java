@@ -11,14 +11,11 @@ public class E08_11 {
         System.out.print("Enter a number between 0 and 511: ");
         short Input = input.nextShort();
         int[][] matrix = new int[3][3];
-        short mask = 0b1; // to extract the last bit after shifting
+        short mask = 0b1;
         for (int i = 0; i < 9; i++) {
-            short bit = (short) (Input & mask); // extracting last bit i.e the
-            // remainder of
-            // division by 2
+            short bit = (short) (Input & mask); // extracting last bit
             matrix[2-i / 3][2-i % 3] = bit;
-            Input = (byte) (Input >> 1); // Shifting right is dividing by 2. The last
-            // bit is the remainder of the next shift.
+            Input = (byte) (Input >> 1);
         }
 
         displayArray(matrix);
