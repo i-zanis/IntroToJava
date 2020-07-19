@@ -1,61 +1,159 @@
+import java.util.Scanner;
+
 public class E08_19 {
+
     public static void main(String[] args) {
 
-        int[][] matrix = {{0,1,0,3,1,6,1},
-                {07,17,67,87,67,07,17},
-                {3,3,3,3,3,12,19},
-                {56,55,56,51,51,59,51},
-                {71,73,76,71,74,78,77},
-                {3,3,3,3,4,0,7}};
-        isConsecutiveFour(matrix);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number of rows and column: ");
+        int[][] n = new int[input.nextInt()][input.nextInt()];
+        System.out.println("Enter the values in the array:");
+
+        for (int i = 0; i < n.length; i++) {
+            for (int j = 0; j < n[i].length; j++) {
+                n[i][j] = input.nextInt();
+            }
+
+        }
+
+        System.out.println(isConsecutiveFour(n));
+
+
+
     }
 
     public static boolean isConsecutiveFour(int[][] values) {
-        boolean majordiagonal = true;
-        boolean vertical = true;
-        boolean subdiagonal = true;
-        boolean horizontal = true;
-        //majordiagonal
-        int N = values.length;
-        for (int i = 0; i < N - 4; i++) {
-            majordiagonal = true;
-            for (int j = i; j < i + 4; j++)
-                if (values[j][j] == values[j + 1][j + 1]) {
-                    System.out.println("check");
+        return checkVer(values)||checkHor(values) || checkDia(values);
+    }
+
+    public static boolean checkVer(int[][] values) {
+        // Going through the array vertically
+
+        for (int i = 0; i < values[0].length; i++) {
+            int start = values[0][i];
+            int count = 1;
+            for (int j = 1; j < values.length; j++) {
+                if (start == values[j][i]) {
+                    count++;
+                } else {
+                    start = values[j][i];
+                    count = 1;
                 }
-        }
-        System.out.println("majordiagonal is " + majordiagonal);
-        //subdiagonal
-        for (int i = 0; i < N - 4; i++) {
-            subdiagonal = true;
-            for (int j = i; j < i + 4; j++)
-                if (values[i + 4 - j][i + 4 - j] !=
-                        values[i + 4 - j - 1][i + 4 - j - 1]) {
-                    subdiagonal = false;
-                    break;
-                }
-        }
-        System.out.println("subdiagonal is " + subdiagonal);
-        //vertical
-        for (int j = 0; j < N - 4; j++) {
-            vertical = true;
-            for (int i = j; i < j + 4; i++)
-                if (values[i][j] != values[i + 1][j]) {
-                    vertical = false;
-                    break;
-                }
-        }
-        System.out.println("vertical is " + vertical);
-        //horizontal
-        for (int i = 0; i < N - 1; i++) {
-            for (int j = i; j < i + 4; j++) {
-                System.out.println(values[i][j]);
-                if (values[i][j] == values[i][j + 1]) {
-                    System.out.println("check");
+
+                if (count == 4) {
+                    return true;
                 }
             }
         }
-        System.out.println("horizontal is " + horizontal);
+
         return false;
+
     }
+
+    public static boolean checkHor(int[][] values) {
+
+        // Going through the array horizontally
+
+        for (int i = 1; i < values.length; i++) {
+            int start = values[i][0];
+            int count = 1;
+            for (int j = 1; j < values[i].length; j++) {
+                if (start == values[i][j]) {
+                    count++;
+                } else {
+                    start = values[i][j];
+                    count = 1;
+                }
+
+                if (count == 4) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+
+    }
+
+    public static boolean checkDia(int[][] values) {
+
+        // From upper left to lower right
+        // Go through the row
+
+        for (int i = 0; i < values.length; i++) {
+            int start = values[i][0];
+            int count = 1;
+            for (int j = i+1, k = 1; j < values.length && k < values[0].length; j++, k++) {
+                if (start == values[j][k]) {
+                    count++;
+                } else {
+                    start = values[j][k];
+                    count = 1;
+                }
+                if (count == 4) {
+                    return true;
+                }
+            }
+        }
+
+        // Going through the column
+
+        for (int i = 0; i < values[0].length; i++) {
+            int start = values[0][i];
+            int count = 1;
+            for (int j = i+1, k = 1; j < values[0].length && k < values.length; j++, k++) {
+                if (start == values[k][j]) {
+                    count++;
+                } else {
+                    start = values[k][j];
+                    count = 1;
+                }
+
+                if (count == 4) {
+                    return true;
+                }
+            }
+        }
+
+        // From upper right to lower left
+        // Go through the column
+
+        for (int i = 0; i < values[0].length; i++) {
+            int start = values[0][i];
+            int count = 1;
+            for (int j = 1, k = i-1; j < values.length && k >= 0; j++, k--) {
+                if (start == values[j][k]) {
+                    count++;
+                } else {
+                    start = values[j][k];
+                    count = 1;
+                }
+                if (count == 4) {
+                    return true;
+                }
+            }
+        }
+
+        // Going through the row
+
+        for (int i = 0; i < values.length; i++) {
+            int start = values[i][values[i].length-1];
+            int count = 1;
+            for (int j = i+1, k = values[0].length-2; j < values.length && k >= 0; j++, k--) {
+                if (start == values[j][k]) {
+                    count++;
+                } else {
+                    start = values[j][k];
+                    count = 1;
+                }
+                if (count == 4) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+
+    }
+
 }
