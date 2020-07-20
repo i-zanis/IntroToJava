@@ -12,7 +12,6 @@ public class E08_27 {
                 n[i][j] = input.nextDouble();
             }
         }
-
         String s = "";
         if (!isMarkovMatrix(n)) {
             s = " not";
