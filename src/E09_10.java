@@ -59,7 +59,7 @@ class QuadraticEquation {
         else {
             return (-b + getDiscriminant()) / (2 * a);
         }
-    }
+    }w
 
     double getRoot2() {
         if (getDiscriminant() < 0)
