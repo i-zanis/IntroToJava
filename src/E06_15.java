@@ -17,7 +17,6 @@ public class E06_15 {
                 tax = 8350 * 0.10 + (33950-8350) * 0.15 + (taxableIncome - 33950) * 0.25;
             else if (taxableIncome <= 171550)
                 tax = 8350 * 0.10 + (33950 - 8350) * 0.15 + (82250 - 33950) * 0.25 + (taxableIncome - 82250) * 0.28;
-
         }
         return tax;
     }
