@@ -1,54 +1,70 @@
 public class E10_05 {
     public static void main(String[] args) {
-    int N = 250;
-    StackOfIntegers test = new StackOfIntegers();
-        for (int i = 1; i < N; i++) {
-        if (N % i == 0) {
-            test.push(N/i);
-            N = N/i;
+        int num = 250;
+
+        StackOfIntegers stack = new StackOfIntegers(20);
+
+        int factor = 2;
+        while (factor <= num) {
+            if (num % factor == 0) {
+                System.out.println(factor);
+                stack.push(factor);
+                num /= factor;
+
+            } else {
+                factor++;
+            }
         }
-    }
-        for (int i = test.getSize(); i > 0; i--) {
-            System.out.println(test.elements[i]);
+        while (!stack.empty()) {
+            System.out.print(stack.pop() + " ");
         }
+
+
     }
 }
 class StackOfIntegers {
-    int[] elements; //just for testin made non-private
-    private int size;
-    public static final int DEFAULT_CAPACITY = 16;
 
-    StackOfIntegers() {
-        elements = new int[DEFAULT_CAPACITY];
-    }
+        private int[] elements;
+        private int size;
 
-    StackOfIntegers(int new_capacity) {
-        elements = new int[new_capacity];
-    }
-
-    public int push(int number) {
-        if (size > elements.length) {
-            int[] temp = new int[elements.length + 1];
-            System.arraycopy(elements, 0, temp, 0, elements.length);
-            elements = temp;
+        /** Construct a stack with the default capacity 16 */
+        public StackOfIntegers() {
+            this(16);
         }
-        return elements[size++] = number;
-    }
 
-    public int pop(int number) {
-        return elements[--size];
-    }
+        /** Construct a stack with the specified maximum capacity */
+        public StackOfIntegers(int capacity) {
+            elements = new int[capacity];
+        }
 
-    public int peek() {
-        return elements[size - 1];
-    }
+        /** Push a new integer into the top of the stack */
+        public int push(int value) {
+            if (size >= elements.length) {
+                int[] temp = new int[elements.length * 2];
+                System.arraycopy(elements, 0, temp, 0, elements.length);
+                elements = temp;
+            }
 
-    public boolean isEmpty() {
-        return size == 0;
-    }
-    public int getSize() {
-        return size;
-    }
+            return elements[size++] = value;
+        }
 
+        /** Return and remove the top element from the stack */
+        public int pop() {
+            return elements[--size];
+        }
 
-}
+        /** Return the top element from the stack */
+        public int peek() {
+            return elements[size - 1];
+        }
+
+        /** Exercise03_21 whether the stack is empty */
+        public boolean empty() {
+            return size == 0;
+        }
+
+        /** Return the number of elements in the stack */
+        public int getSize() {
+            return size;
+        }
+    }
