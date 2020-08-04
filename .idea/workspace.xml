@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="first commit">
       <change afterPath="$PROJECT_DIR$/.idea" afterDir="true" />
@@ -7,7 +25,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IntroToJava.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src" afterDir="true" />
       <change afterPath="$PROJECT_DIR$/src/E06_01.java" afterDir="false" />
@@ -101,6 +118,8 @@
       <change afterPath="$PROJECT_DIR$/src/E5_ISBN.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/RandomCharacter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/TestRandomCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E10_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E10_07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +248,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <ignored-roots>
@@ -278,7 +308,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594744773707" />
-<<<<<<< HEAD
     <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1595981113199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -302,7 +331,7 @@
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
     <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595981113199" />
-=======
+    =======
     <state width="1493" height="285" key="GridCell.Tab.0.bottom" timestamp="1596529895244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -326,7 +355,7 @@
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
     <state width="1493" height="285" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596529895244" />
->>>>>>> da41e9621ad0d251f4e4dec3426fca4e236951a2
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; da41e9621ad0d251f4e4dec3426fca4e236951a2
     <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
     <state width="723" height="258" key="GridCell.Tab.1.bottom" timestamp="1595885405145">
       <screen x="0" y="0" width="1536" height="824" />
@@ -378,19 +407,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="215" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1596375757940" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/E5_17.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IntroJava$E08_27.ic" NAME="E08_27 Coverage Results" MODIFIED="1595808790978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
