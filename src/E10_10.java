@@ -27,13 +27,10 @@ class Queue {
     public int dequeue() {
         int v = elements[0];
 
-        // Shift all elements in the array left
         for (int i = 0; i < size - 1; i++) {
             elements[i] = elements[i + 1];
         }
-
         size--;
-
         return v;
     }
 
