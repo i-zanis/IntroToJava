@@ -30,6 +30,7 @@ class StackOf_Integers {
     StackOf_Integers(int new_capacity) {
         elements = new int[new_capacity];
     }
+
     public int push(int value) {
         if (size >= elements.length) {
             int[] temp = new int[elements.length * 2];
