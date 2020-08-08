@@ -5,14 +5,12 @@ public class E10_01{
 
     }
 
-
 }
 class Time {
 
     public long hour;
     public long minute;
     public long second;
-
     public Time() {
         long totalSeconds = System.currentTimeMillis() / 1000;
         long totalMinutes = totalSeconds / 60;
@@ -22,7 +20,6 @@ class Time {
         this.second = totalSeconds % 60;
 
     }
-
     public Time(long hour, long minute, long second) {
         this.hour = hour;
         this.minute = minute;
