@@ -25,7 +25,6 @@ class Time {
         this.minute = minute;
         this.second = second;
     }
-
     public Time(long elapseTime) {
         long totalSeconds = elapseTime / 1000;
         long totalMinutes = totalSeconds / 60;

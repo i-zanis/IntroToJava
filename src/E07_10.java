@@ -16,7 +16,6 @@ public class E07_10 {
                 max = array[i];
                 index = i;
             }
-
         }
         return index;
     }

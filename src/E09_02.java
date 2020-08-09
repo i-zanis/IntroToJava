@@ -17,6 +17,5 @@ public class E09_02 {
         public double getChangePercent() {
             return (currentPrice - previousClosingPrice)/previousClosingPrice * 100;
         }
-
     }
 }
