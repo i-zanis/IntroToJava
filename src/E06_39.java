@@ -33,7 +33,6 @@ public class E06_39 {
         }
 
     }
-
     /**
      * Return true if point (x2, y2) is on the left side of the directed line
      * from (x0, y0) to (x1, y1)

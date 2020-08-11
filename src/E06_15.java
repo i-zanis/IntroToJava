@@ -6,6 +6,7 @@ public class E06_15 {
             System.out.printf("%-15s %-12s\n",i, (int)computeTax(0,i));
         }
     }
+
     public static double computeTax(int status, double taxableIncome) {
         double tax = 0.0;
         if (status == 0) {
