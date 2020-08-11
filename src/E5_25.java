@@ -12,7 +12,6 @@ public class E5_25 {
             } else if (i == 100000) {
                 System.out.println("Pi at i = 100000 is " + pi*4);
             }
-
         }
         System.out.println("Java's pi is " + Math.PI);
 
