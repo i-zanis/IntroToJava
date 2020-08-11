@@ -7,7 +7,6 @@ public class E10_16 {
                 "10000000000000000000000000000000000000000000000000");
         // bigNum is now larger than Long.MAX_VALUE
         bigNum.add(BigInteger.ONE);
-
         int count = 1;
         while (count <= 10) {
             if (bigNum.remainder(new BigInteger("2")).equals(BigInteger.ZERO) ||
@@ -15,7 +14,6 @@ public class E10_16 {
                 System.out.println(bigNum);
                 count++;
             }
-
             bigNum = bigNum.add(BigInteger.ONE);
         }
     }
