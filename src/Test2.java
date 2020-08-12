@@ -1,16 +1,19 @@
 import java.math.BigDecimal;
 
 public class Test2 {
+
     public static void main(String[] args) {
-        BigDecimal e = BigDecimal.ONE; // 1
-        BigDecimal item = BigDecimal.ONE; // 1
 
-        for (int i = 1; i <= 1000; i++) {
-            item = item.divide(new BigDecimal(i + ""), 25, BigDecimal.ROUND_UP);
-            e = e.add(item);
+        int count = 0;
+        BigDecimal num = new BigDecimal(Long.MAX_VALUE).add(BigDecimal.ONE);
+        while (count < 10) {
 
-            if (i % 100 == 0)
-                System.out.println("The e is " + e + " for i = " + i);
+            if (num.remainder(new BigDecimal(5)).equals(BigDecimal.ZERO) ||
+                    num.remainder(new BigDecimal(6)).equals(BigDecimal.ZERO)) {
+                count++;
+                System.out.println(count+ ": " +num);
+            }
+            num = num.add(BigDecimal.ONE);
         }
     }
 }
