@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/E10_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E10_18.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E06_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E06_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E06_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E06_39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E5_25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E5_25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E10_16">
-    <configuration name="E10_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E10_04" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E10_18">
     <configuration name="E10_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E10_08" />
       <module name="IntroToJava" />
@@ -98,6 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E10_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E10_17" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E10_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E10_18" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E5_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E5_29" />
       <module name="IntroToJava" />
@@ -105,20 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="IntroToJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E10_18" />
+        <item itemvalue="Application.E10_17" />
         <item itemvalue="Application.E10_16" />
         <item itemvalue="Application.E10_08" />
         <item itemvalue="Application.E5_29" />
-        <item itemvalue="Application.E10_04" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -216,29 +215,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594744773707" />
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1596827423250">
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1597229175357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596827423250" />
+    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597229175357" />
     <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1596827423250">
+    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1597229175356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596827423250" />
+    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597229175356" />
     <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1596827423250">
+    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1597229175356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596827423250" />
+    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597229175356" />
     <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1596827423250">
+    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1597229175356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596827423250" />
+    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597229175356" />
     <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596827303304">
       <screen x="0" y="0" width="1536" height="824" />
@@ -301,5 +300,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IntroToJava$E10_18.ic" NAME="E10_18 Coverage Results" MODIFIED="1597229505252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
