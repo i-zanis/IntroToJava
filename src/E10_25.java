@@ -42,7 +42,7 @@ public class E10_25 {
         return (regex.charAt(0) == '[' && regex.charAt(regex.length() - 1) == ']');
     }
 
-}
+
     public static String[] split(String s, String regex) {
 
         if (isRegexArray(regex)) {
