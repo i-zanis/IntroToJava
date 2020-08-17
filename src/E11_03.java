@@ -2,7 +2,10 @@ import java.util.Date;
 
 public class E11_03 {
     public static void main(String[] args) {
-
+Account a = new Account();
+        System.out.println(a.getBalance());
+        a.withdraw(1000000000); //test number for overdraft
+        System.out.println(a.getBalance());
     }
 }
 class Account {
@@ -49,4 +52,30 @@ class Account {
             this.balance = this.balance + amount;
         }
     }
+class Savings extends  Account {
+    @Override
+    public void withdraw(double amount) {
+        if (amount > getBalance()) {
+            System.out.println("The account cannot be overdrawn.\nPlease enter a different amount");
+        }
+        super.withdraw(amount);
+    }
+
+    class Current extends Account {
+        @Override
+        public void withdraw(double amount) {
+            if (amount > getBalance() + 1000) {
+                System.out.println("You have passed the overdraft limit\n Please enter a different amount");
+            }
+            super.withdraw(amount);
+        }
+
+        @Override
+        public String toString() {
+            return "SavingsAccount{" +
+                    "mBalance=" + getBalance() +
+                    '}';
+        }
+    }
+}
 
