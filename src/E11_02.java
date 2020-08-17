@@ -14,7 +14,7 @@ class Person {
         return "Person: " + name;
     }
 }
-}
+
 class Student extends Person {
     private String status;
     public static int FRESHMAN = 1;
@@ -34,3 +34,4 @@ class Faculty extends Employee {
 class Staff extends Employee {
     private String title;
 }
+
