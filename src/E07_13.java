@@ -6,6 +6,8 @@ public class E07_13 {
         int[] list = new int[numbers.length];
         for (int i = 0; i < numbers.length; i++){
             list[i] = numbers[i];
+
+
         }
         return list[(int)(Math.random() * numbers.length)];
         }
