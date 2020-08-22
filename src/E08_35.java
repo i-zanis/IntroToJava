@@ -4,7 +4,6 @@ public class E08_35 {
                             {1, 1, 1, 1},
                             {1, 1, 1, 0},
                             {0, 0, 1, 1}};
-
         findLargestBlock(matrix);
     }
 public static int findLargestBlock(int[][] m) {
