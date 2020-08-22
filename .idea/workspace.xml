@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/E11_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E11_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E08_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E08_35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E11_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E11_07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

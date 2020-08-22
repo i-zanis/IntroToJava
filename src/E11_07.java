@@ -11,6 +11,7 @@ public class E11_07 {
         shuffle(list);
         for (Object o : list) System.out.println(o);
     }
+
     public static void shuffle(ArrayList<Integer> list) {
         int temp = 0;
         for (int i = 0; i < 3; i++) {
