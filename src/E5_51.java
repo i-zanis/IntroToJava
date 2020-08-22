@@ -8,6 +8,7 @@ public class E5_51 {
                 check = check + first.charAt(i);
             }
         }
+
         System.out.println("The common prefix is: " + check);
     }
 }
