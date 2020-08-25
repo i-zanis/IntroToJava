@@ -2,7 +2,6 @@ public class E11_08 {
     public static void main (String[] args) {
     }
 }
-
 class Account1 {
     private int id;
     private String name;
