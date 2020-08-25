@@ -3,7 +3,6 @@ import java.math.BigDecimal;
 public class Test2 {
 
     public static void main(String[] args) {
-
         int count = 0;
         BigDecimal num = new BigDecimal(Long.MAX_VALUE).add(BigDecimal.ONE);
         while (count < 10) {
