@@ -22,7 +22,6 @@ public class E11_07 {
             list.add(list.get(random2), temp);
         }
     }
-
 }
 /**(Shuffle ArrayList) Write the following method that shuffles the elements in
  an ArrayList of integers:
