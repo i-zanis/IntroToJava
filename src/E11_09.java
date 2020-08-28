@@ -4,9 +4,10 @@ public class E11_09 {
                 {1, 1, 0, 0},
                 {0, 0, 0, 1},
                 {1, 0, 0, 1},
-                {0, 1, 1, 0},
+                {0, 1, 1, 1},
                 {1, 1, 1, 1}};
         System.out.println("The row with most 1's is: " + findRow(m));
+        System.out.println("The column with the most 1's is: " + findColumn(m));
     }
 
     public static int findRow(int[][] m) {
@@ -30,12 +31,22 @@ public class E11_09 {
 
     public static int column(int[][] m, int col) {
         int sum = 0;
-        for (int[] ints : m) {
-            sum += ints[col];
+        for (int i = 0; i < m.length; i++) {
+            sum += m[i][col];
         }
+        return sum;
+    }
+
+    public static int findColumn(int[][] m) {
+        int cIndex = -1;
+        int sum = 0;
+        for (int i = 0; i < m[0].length; i++) {
+            int temp = column(m, i);
+            if (sum < temp) {
+                sum = temp;
+                cIndex = i;
+            }
+        }
+        return cIndex;
     }
 }
-public static int findColum(int[][] m) {
-
-}
-
