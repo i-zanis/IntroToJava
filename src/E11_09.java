@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class E11_09 {
     public static void main(String[] args) {
         int[][] m = {
@@ -6,8 +8,11 @@ public class E11_09 {
                 {1, 0, 0, 1},
                 {0, 1, 1, 1},
                 {1, 1, 1, 1}};
-        System.out.println("The row with most 1's is: " + findRow(m));
-        System.out.println("The column with the most 1's is: " + findColumn(m));
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(findRow(m));
+        list.add(findColumn(m));
+        for (int value: list)
+            System.out.println(value);
     }
 
     public static int findRow(int[][] m) {
