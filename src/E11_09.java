@@ -14,7 +14,6 @@ public class E11_09 {
         for (int value: list)
             System.out.println(value);
     }
-
     public static int findRow(int[][] m) {
         int row = 0;
         int sum = 0;
@@ -41,7 +40,6 @@ public class E11_09 {
         }
         return sum;
     }
-
     public static int findColumn(int[][] m) {
         int cIndex = -1;
         int sum = 0;
