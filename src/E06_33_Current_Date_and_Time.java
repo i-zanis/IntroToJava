@@ -23,7 +23,6 @@ public class E06_33_Current_Date_and_Time {
         // Display results
         System.out.println("Current date and time is " +getDate(totalHours) +" " + currentHour + ":"
                 + currentMinute + ":" + currentSecond + " GMT");
-
     }
 
     public static String getDate(long numberOfHour) {
