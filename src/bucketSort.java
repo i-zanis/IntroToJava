@@ -21,21 +21,11 @@ public class bucketSort {
         for(int i = 0; i < n; i++){
             for(int j = 0; j < b[i].size(); j++){
                 arr[index++] = b[i].get(j);
+
             }
         }
+
     }
 }
 
 
-switch (tokens[1].charAt(0)) {
-        case '+':
-        result = Integer.parseInt(tokens[0]) + Integer.parseInt(tokens[2]);
-        break;
-        case '-':
-        result = Integer.parseInt(tokens[0]) - Integer.parseInt(tokens[2]);
-        break;
-        case '*':
-        result = Integer.parseInt(tokens[0]) * Integer.parseInt(tokens[2]);
-        break;
-        case '/':
-        result = Integer.parseInt(tokens[0]) / Integer.parseInt(tokens[2]);
