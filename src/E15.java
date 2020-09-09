@@ -1,16 +1,27 @@
-public boolean search(E e) {
-         TreeNode<E> current = root; // Start from the root
-        
-         while (current != null) {
+public boolean insert(E e) {
+    if (root == null) root = createNewNode(e); // Create a new root
+    else {
+         TreeNode<E> parent = null;
+         TreeNode<E> current = root;
+         while (current != null)
          if (e.compareTo(current.element) < ) {
+         parent = current;
          current = current.left;
          }
          else if (e.compareTo(current.element) > ) {
-         current = current.right;
+         parent = current;
+         current = current.right;}
+
+         else
+         return false; // Duplicate node not inserted
+
+         // Create the new node and attach it to the parent node
+         if (e.compareTo(parent.element) < )
+         parent.left = createNewNode(e);
+         else
+         parent.right = createNewNode(e);
          }
-         else // element matches current.element
-         return true; // Element is found
-         }
-        
-         return false;
+
+         size++;
+         return true; // Element inserted successfully
          }
