@@ -1,18 +1,23 @@
-public class Test4 {
+public class Test {
     public static void main(String[] args) {
-        public E removeFirst() {
-            if (size == 0) return null; // Nothing to delete
-            else {
-                Node<E> temp = head; // Keep the first node temporarily
-                head = head.next; // Move head to point to next node
-                size--; // Reduce size by 1
-                if (head == null) tail = null; // List becomes empty
-                return temp.element; // Return the deleted element
-            }
+        public boolean search(E element) {
+            TreeNode<E> current = root; // Start from the root
+            while (current != null)
+                if (element < current.element) {
+                    current = current.left; // Go left
+                }
+                else if (element > current.element) {
+                    current = current.right; // Go right
+                }
+                else // Element matches current.element
+                    return true; // Element is found
+
+            return false; // Element is not in the tree
+        }
     }
 
 }
-
-
+    }
+}
 
 
