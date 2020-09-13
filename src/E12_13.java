@@ -5,11 +5,11 @@ import static java.lang.Character.isLetterOrDigit;
 
 public class E12_13 {
     public static void main(String[] args) throws Exception {
-        if (args.length != 0) {
+        if (args.length != 1) {
             System.out.println("Usage: java filename");
             System.exit(1);
         }
-        File file = new File(args[1]);
+        File file = new File(args[0]);
         if (!file.exists()) {
             System.out.println("The file doesn't exist.");
             System.exit(2);
@@ -23,14 +23,17 @@ public class E12_13 {
         while(input.hasNext()) {
             String s = input.nextLine();
              lineCount++;
-             if (isLetterOrDigit(s.charAt(s.length() -1)))
+             if (isLetterOrDigit(s.charAt(s.length() -1))) wordCount++;
             for (int i = 0; i < s.length(); i++) {
                 if (isLetterOrDigit(s.charAt(i))) charCount++;
                 if (s.charAt(i) == space) wordCount++;
                 }
             }
         input.close();
-            
-        }
+        System.out.println("Characters: " + charCount);
+        System.out.println("Words: " + wordCount);
+        System.out.println("Lines: " + lineCount);
+
+    }
     }
 
