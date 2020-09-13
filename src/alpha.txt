@@ -1,0 +1,12 @@
+
+ if (args.length != 1) {
+        System.out.println("Usage: java E12_12 filename");
+        System.exit(0);
+        }
+// Check if the source file exist or not
+        File sourceFile = new File(args[0]);
+        if (!sourceFile.exists()) {
+        System.out.println("Source file " + args[0] +" not exist");
+        System.exit(0);
+        }
+        StringBuilder buffer = new StringBuilder();
