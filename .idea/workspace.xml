@@ -20,10 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176a9b7f-9dd0-4644-80a2-dad938821eb6" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/E12_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (2).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (4).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (5).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (6).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (7).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy (8).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha - Copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/alpha.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/beta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ask/gamma.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E12_15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/META-INF/IntroToJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/alpha - Copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/alpha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroToJava/alpha.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E12_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E12_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E3_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E3_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alpha - Copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alpha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/alpha.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alpha2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,37 +101,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E12_13">
-    <configuration name="E12_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E12_08" />
+  <component name="RunManager" selected="Application.E12_26">
+    <configuration name="E12_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_17" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E12_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E12_10" />
+    <configuration name="E12_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_18" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E12_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E12_11" />
+    <configuration name="E12_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_22" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E12_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E12_12" />
+    <configuration name="E12_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_23" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E12_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E12_13" />
+    <configuration name="E12_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_26" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,14 +139,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E12_13" />
-        <item itemvalue="Application.E12_12" />
-        <item itemvalue="Application.E12_11" />
-        <item itemvalue="Application.E12_10" />
-        <item itemvalue="Application.E12_08" />
+        <item itemvalue="Application.E12_26" />
+        <item itemvalue="Application.E12_23" />
+        <item itemvalue="Application.E12_22" />
+        <item itemvalue="Application.E12_18" />
+        <item itemvalue="Application.E12_17" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
     <configuration>C:\Users\Niggatelo\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
@@ -183,6 +206,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="117" key="#Auto_Import" timestamp="1600234402478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="117" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1600234402478" />
     <state x="522" y="203" key="#Notifications" timestamp="1594762338089">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -204,10 +231,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="176" y="103" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593208911415" />
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599864826534">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600479139525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1599864826534" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600479139525" />
     <state x="551" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598988850068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -228,29 +255,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="622" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594744773707" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1599976766009">
+    <state width="723" height="102" key="GridCell.Tab.0.bottom" timestamp="1600493499119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599976766009" />
+    <state width="723" height="102" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600493499119" />
     <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1599976766009">
+    <state width="723" height="102" key="GridCell.Tab.0.center" timestamp="1600493499119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599976766009" />
+    <state width="723" height="102" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600493499119" />
     <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1599976766009">
+    <state width="723" height="102" key="GridCell.Tab.0.left" timestamp="1600493499119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599976766009" />
+    <state width="723" height="102" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600493499119" />
     <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1599976766009">
+    <state width="723" height="102" key="GridCell.Tab.0.right" timestamp="1600493499119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="583" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594762341879" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599976766009" />
+    <state width="723" height="102" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600493499119" />
     <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594923495599" />
     <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1599370850297">
       <screen x="0" y="0" width="1536" height="824" />

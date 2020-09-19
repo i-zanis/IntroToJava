@@ -1,32 +1,30 @@
-import java.io.File;
-import java.io.PrintWriter;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
-public class E12_16 {
-    public static void main(String[] args) throws Exception{
-        if (args.length != 4) {
-            System.out.println("Usage: java ReplaceText sourceFile targetFile oldStr newStr");
+class E12_16 {
+    public static void main(String[] args) throws Exception {
+        if (args.length != 3) {
+            System.out.println(
+                    "Usage: java Exercise12_16 sourceFile oldStr newStr");
             System.exit(1);
         }
+
+        // Check if source file exists
         File sourceFile = new File(args[0]);
         if (!sourceFile.exists()) {
-            System.out.println("Source file " + args[0] + " doesn't exist");
+            System.out.println("Source file " + args[0] + " not exist");
             System.exit(2);
         }
-        File targetFile = new File(args[1]);
-        if (targetFile.exists()){
-            System.out.println("Target file " + args[1] + " already exists");
-            System.exit(3);
-        }
-    try (
-            Scanner input = new Scanner(sourceFile);
-            PrintWriter output = new PrintWriter(targetFile);
-            ) {
-        while(input.hasNext()) {
-            String s1 = input.nextLine();
-            String s2 = s1.replaceAll(args[2], args[3]);
-            output.println(s2);
+
+        StringBuilder sb = new StringBuilder();
+        try (Scanner input = new Scanner(sourceFile);) {
+            while (input.hasNext()) {
+                String s1 = input.nextLine();
+                String s2 = s1.replaceAll(args[1], args[2]);
+                sb.append("\r\n" + s2);
+            }}
+        try (PrintWriter output = new PrintWriter(sourceFile);) {
+            output.print("\r\n" + sb.toString());
         }
     }
-}
 }
