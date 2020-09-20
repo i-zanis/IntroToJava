@@ -1,19 +1,28 @@
-class MyMainClass {
-    public static void main(String[] args) {
-        Animal myDog = new Dog(); // Create a Dog object
-        myDog.animalSound(); // Call the method on the Dog object
+import java.io.File;
+import java.util.Scanner;
+
+public class test11 {
+    public static void main(String[] args) throws Exception {
+        if (args.length !=1) {
+            System.out.println("Usage: java test filename");
+            System.exit(1);
+        }
+        File sourceFile = new File(args[0]);
+        if(sourceFile.exists()) {
+            System.out.println("Source file " + args[0]);
+            System.exit(2);
+        }
+        StringBuilder buffer = new StringBuilder();
+        Scanner input = new Scanner(sourceFile);
+
+        while (input.hasNext()) {
+            String s = input.nextLine();
+            String s1 = s.trim();
+            if(s1.charAt(0) == '{') {
+    buffer.append(" {");
+    if (s1.length() < 1 ) buffer.append("\r\n" + s);
+            }
+            input.close();
+        }
     }
 }
-     class Animal { // Superclass (parent)
-        public void animalSound() {
-            System.out.println("The animal makes a sound");
-        }
-    }
-
-     class Dog extends Animal { // Subclass (child)
-        public void animalSound() {
-            super.animalSound(); // Call the superclass method
-            System.out.println("The dog says: bow wow");
-        }
-    }
-
