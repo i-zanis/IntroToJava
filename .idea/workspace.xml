@@ -20,33 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9291be5-bf1f-43e6-9ff5-aea8a4376321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E12_28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (5).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (6).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (7).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (8).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/beta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/gamma.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E12_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E12_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Etest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Etest12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (5).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (6).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (7).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (8).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/alpha.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/beta.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ask/gamma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E12_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E12_28.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

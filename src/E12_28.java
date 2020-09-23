@@ -1,15 +1,21 @@
+import java.io.File;
+
 public class E12_28 {
     public static void main(String[] args) {
-        if(args.length == 0) {
+        if (args.length == 0) {
             System.out.println("Usage: java E12_28");
             System.exit(1);
         }
-        StringBuilder sb = new StringBuilder();
-        String s =
-        matches("Exercise[\\d]_[\\d]") {
-            sb.insert(s.indexOf('_' -1, "0")))
+        for (int i = 0; i < args.length; i++) {
+            if (args[i].matches("Exercise[\\d]_*")) {
+                String s = args[i];
+                String newName = s.substring(0, s.indexOf('_') - 1)
+                        + "0" + s.substring((s.indexOf('_') - 1));
+
+                File file = new File(args[i]);
+                file.renameTo(new File(newName));
+            }
         }
-        sb.renameTo
     }
 }
 /**(Rename files) Suppose you have a lot of files in a directory named Exercisei_j,
