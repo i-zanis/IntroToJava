@@ -20,7 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9291be5-bf1f-43e6-9ff5-aea8a4376321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E12_27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E12_28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (4).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (5).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (6).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (7).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy (8).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha - Copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/beta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroToJava/ask/gamma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E12_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E12_27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Etest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Etest12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (4).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (5).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (6).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (7).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy (8).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha - Copy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/beta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ask/gamma.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +66,28 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="RunManager" selected="Application.E12_27">
+    <configuration name="E12_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E12_27" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Etest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Etest12" />
+      <module name="IntroToJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.E12_27" />
+        <item itemvalue="Application.Etest12" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
@@ -54,6 +102,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom" timestamp="1600822178613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600822178613" />
+    <state width="1493" height="347" key="GridCell.Tab.0.center" timestamp="1600822178613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600822178613" />
+    <state width="1493" height="347" key="GridCell.Tab.0.left" timestamp="1600822178613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600822178613" />
+    <state width="1493" height="347" key="GridCell.Tab.0.right" timestamp="1600822178613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600822178613" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IntroToJava$E10_18.ic" NAME="E10_18 Coverage Results" MODIFIED="1597229505252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
