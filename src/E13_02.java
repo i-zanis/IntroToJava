@@ -12,4 +12,3 @@ public class E13_02 {
  return sum/list.size();
     }
 }
-

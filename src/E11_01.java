@@ -58,5 +58,9 @@ public String getDateCreated() {
     return "created on " + dateCreated + "\ncolor " + color +
     " and filled: " + filled;
 }
+//placeholder
+    protected double getArea() {
+    return 1;
+    }
 }
 
