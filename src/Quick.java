@@ -18,6 +18,7 @@ public class Quick {
         int j = hi + 1;
         Comparable v = a[lo];
 
+
         while (true) {
             while (less(a[++i], v)) if (i == hi) break;
             while (less(v, a[--j])) if (j == lo) break;
@@ -27,7 +28,6 @@ public class Quick {
         exch(a, lo, j);
         return j;
     }
-
 
 private static boolean less(Comparable i, Comparable j) {
     if (i.compareTo(j) < 0) return true;
@@ -39,4 +39,5 @@ private static void exch(Comparable[] a, int i, int j) {
     a[i]= a[j];
     a[j] = temp;
 }
+
 }
