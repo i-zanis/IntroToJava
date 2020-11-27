@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9291be5-bf1f-43e6-9ff5-aea8a4376321" name="Default Changelist" comment="03280923">
-      <change afterPath="$PROJECT_DIR$/src/Etest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Myclass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testjava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testjava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Documents and Settings" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MyDevoxxGluon" />
   </component>
-  <component name="RunManager" selected="Application.Etest">
+  <component name="RunManager" selected="Application.Myclass">
     <configuration name="AmericanFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AmericanFlag" />
       <module name="IntroToJava" />
@@ -72,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rwerwre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rwerwre" />
+    <configuration name="Myclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Myclass" />
       <module name="IntroToJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Etest" />
+        <item itemvalue="Application.Myclass" />
         <item itemvalue="Application.testjava" />
+        <item itemvalue="Application.Etest" />
         <item itemvalue="Application.AmericanFlag" />
         <item itemvalue="Application.E5_19" />
-        <item itemvalue="Application.rwerwre" />
       </list>
     </recent_temporary>
   </component>
@@ -132,26 +133,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="03280923" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="293" y="55" key="FileChooserDialogImpl" timestamp="1601766269252">
-      <screen x="0" y="0" width="1024" height="600" />
+    <state x="440" y="76" key="FileChooserDialogImpl" timestamp="1605237996678">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="293" y="55" key="FileChooserDialogImpl/0.0.1024.600@0.0.1024.600" timestamp="1601766269252" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604727703768">
+    <state x="440" y="76" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605237996678" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605020171380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604727703768" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604727703768">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605020171380" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605020171380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604727703768" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604727703767">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605020171380" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605020171379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604727703767" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604727703768">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605020171379" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605020171380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604727703768" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605020171380" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1602305386613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
