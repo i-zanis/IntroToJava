@@ -1,26 +1,19 @@
-public class Myclass {
-    public static void main(String[ ] args) {
-        int a, b, c, d;
+import java.util.Arrays;
 
-        a = 11;
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        Arrays.sort(nums);
+        int[] temp = new int[2];
+        int temp[0] = Integer.MAX_VALUE;
+        int temp[1] = Integer.MAX_VALUE;
 
-        b = 12;
-
-        c = 13;
-
-        d = 14;
-
-        a = b;
-
-        b = c;
-
-        c = d;
-
-        d = a;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
+        for (int i = 1; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++);
+            if (nums[i] + nums[j] == target) {
+                temp[0] = nums[i];
+                temp[1] = nums[j];
+                return temp;
+            }
+        }
     }
 }
-
